@@ -62,7 +62,10 @@
     "configuration": "Configuration",
     "yes": "Yes",
     "no": "No",
-    "version": "Version"
+    "version": "Version",
+    "to_change": "Change",
+    "previous": "Previous",
+    "new": "New"
   },
   "language": {
     "en": "English",
@@ -161,6 +164,8 @@
     "number_phone_10_digits": "Mobile number must have ten digits.",
     "first_name": "Enter first name",
     "last_name": "Enter last name",
+    "first_name_invalid": "First Name invalid",
+    "last_name_invalid": "Last Name invalid",
     "first_name_required": "First name required.",
     "last_name_required": "Last name required.",
     "create_account": "Create Account",
@@ -188,8 +193,11 @@
     "recent": "Recharges",
     "completed": "Completed",
     "pending": "Pending",
+    "failed": "Failed",
     "quantity": "Quantity",
     "send_now": "Send now",
+    "title_send_recharge_now": "Send recharge now",
+    "body_send_recharge_now": "This recharge will be sent immediately and you will receive only the corresponding main balance",
     "cancel_reload": "Cancel recharge",
     "talk_to_support": "Call support",
     "cancel_cubacel_recharge": "Cancel Cubacel recharge",
@@ -207,6 +215,8 @@
     "completed_description": "ETECSA confirmed your recharge was processed successfully.",
     "pending_description": "We are waiting for confirmation from ETECSA about the recharge status.",
     "cancelled_description": "We have canceled your recharge and processed the refund.",
+    "failed_cubacel_description": "Your recharge has not been completed because the number to recharge is incorrect.",
+    "failed_nauta_description": "Your recharge has not been completed because the Nauta account is incorrect.",
     "status": "Status",
     "payment_information": "Payment information",
     "paid_out": "Amount paid",
@@ -219,7 +229,11 @@
     "calls": "Calls",
     "ticket": "Confirmation number",
     "reserved": "Reserved",
-    "reserved_description": "Your recharge has been reserved and will be sent the day the promotion starts."
+    "reserved_description": "Your recharge has been reserved and will be sent the day the promotion starts.",
+    "change_contact": "Change contact",
+    "change_contact_cubacel": "Change number or contact",
+    "change_contact_nauta": "Change Nauta account",
+    "change_contact_confirmation": "Are you sure you want to change the recipient of your recharge?"
   },
   "contact": {
     "edit_contact": "Edit contact",
@@ -480,6 +494,7 @@
     "silence": "Silence",
     "speaker": "Speaker",
     "calling": "Calling",
-    "completed": "Completed"
+    "completed": "Completed",
+    "reconnecting_to_islacel": "Reconnecting to Islacel"
   }
 }

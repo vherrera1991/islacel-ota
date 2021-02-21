@@ -62,7 +62,10 @@
     "configuration": "Configuración",
     "yes": "Si",
     "no": "No",
-    "version": "Versión"
+    "version": "Versión",
+    "to_change": "Cambiar",
+    "previous": "Anterior",
+    "new": "Nuevo"
   },
   "language": {
     "en": "Inglés",
@@ -160,6 +163,8 @@
     "number_phone_10_digits": "El número debe ser de 10 dígitos.",
     "first_name": "Ingresa tu nombre",
     "last_name": "Ingresa tus apellidos",
+    "first_name_invalid": "Nombre incorrecto",
+    "last_name_invalid": "Apellido incorrecto",
     "first_name_required": "Nombre requerido.",
     "last_name_required": "Al menos un apellido es requerido.",
     "email_in_use": "Correo en uso",
@@ -185,8 +190,11 @@
     "recent": "Recargas",
     "completed": "Completada",
     "pending": "Pendiente",
+    "failed": "Fallida",
     "quantity": "Cantidad",
     "send_now": "Enviar ahora",
+    "title_send_recharge_now": "Enviar recarga ahora",
+    "body_send_recharge_now": "Esta recarga se enviará inmediatamente y recibirán únicamente el saldo principal correspondiente",
     "cancel_reload": "Cancelar recarga",
     "talk_to_support": "Hablar con soporte",
     "cancel_cubacel_recharge": "Cancelar recarga Cubacel",
@@ -204,6 +212,8 @@
     "completed_description": "ETECSA confirmó que tu recarga fue procesada exitosamente.",
     "pending_description": "Esperando confirmación de ETECSA sobre el estado de tu recarga.",
     "cancelled_description": "Se ha cancelado tu recarga y emitido el reembolso.",
+    "failed_cubacel_description": "Su recarga no se ha completado porque el número a recargar es incorrecto.",
+    "failed_nauta_description": "Su recarga no se ha completado porque la cuenta Nauta es incorrecta.",
     "status": "Estado",
     "payment_information": "Información de pago",
     "paid_out": "Pagado",
@@ -216,7 +226,11 @@
     "calls": "Llamadas",
     "ticket": "Número de confirmación",
     "reserved": "Reservada",
-    "reserved_description": "Tu recarga se ha reservado y será enviada el día que comience la promoción."
+    "reserved_description": "Tu recarga se ha reservado y será enviada el día que comience la promoción.",
+    "change_contact": "Cambiar contacto",
+    "change_contact_cubacel": "Cambiar número o contacto",
+    "change_contact_nauta": "Cambiar cuenta Nauta",
+    "change_contact_confirmation": "¿Estás seguro de querer cambiar el destinatario de tu recarga?"
   },
   "contact": {
     "edit_contact": "Editar contacto",
@@ -470,6 +484,7 @@
     "silence": "Silenciar",
     "speaker": "Altavoz",
     "calling": "Llamando",
-    "completed": "Completada"
+    "completed": "Completada",
+    "reconnecting_to_islacel": "Reconectando con Islacel"
   }
 }
